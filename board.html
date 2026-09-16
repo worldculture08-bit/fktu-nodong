@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>게시판 — 한국노총 노동연대</title>
+  <meta name="description" content="한국노총 노동연대 게시판 — 공지와 현장 소식">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">한국노총 <span>노동연대</span></a>
+      <nav class="nav" aria-label="주 메뉴">
+        <a href="index.html">홈</a>
+        <a href="about.html">소개</a>
+        <a href="direction.html">활동방향</a>
+        <a href="news/index.html">소식</a>
+        <a href="articles/index.html">지식</a>
+        <a href="board.html" aria-current="page">게시판</a>
+        <a href="contact.html">문의</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>게시판</h1>
+    <p>공지와 현장 소식을 올립니다. 글은 운영자가 직접 작성합니다.</p>
+
+    <div id="status" class="note">불러오는 중…</div>
+    <ul class="list-plain" id="list"></ul>
+  </main>
+
+  <script type="module">
+    import { rest, esc, fmtDate } from "./js/site.js";
+
+    const status = document.getElementById("status");
+    const list = document.getElementById("list");
+
+    try {
+      const posts = await rest("posts", {
+        query: "?select=id,category,title,created_at&order=created_at.desc&limit=50",
+      });
+      if (!posts.length) {
+        status.textContent = "아직 등록된 글이 없습니다.";
+        status.style.display = "";
+      } else {
+        status.style.display = "none";
+        list.innerHTML = posts.map((p) => `
+          <li>
+            <span class="date">${fmtDate(p.created_at)} · ${esc(p.category)}</span>
+            <h3 style="margin:0.25rem 0"><a href="post.html?id=${p.id}">${esc(p.title)}</a></h3>
+          </li>`).join("");
+      }
+    } catch (e) {
+      status.textContent = "글을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.";
+    }
+  </script>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p><strong>한국노총 노동연대</strong></p>
+      <p>서울특별시 영등포구 국제금융로6길 26, 한국노총 빌딩 9층 (07328)</p>
+      <p><a href="contact.html">fktu-nodong@gmail.com</a> · <a href="admin.html">운영자</a></p>
+    </div>
+  </footer>
+</body>
+</html>

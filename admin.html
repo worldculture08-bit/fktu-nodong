@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>운영자 — 한국노총 노동연대</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">한국노총 <span>노동연대</span></a>
+      <nav class="nav" aria-label="주 메뉴">
+        <a href="index.html">홈</a>
+        <a href="board.html">게시판</a>
+        <a href="contact.html">문의</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>운영자</h1>
+
+    <!-- 로그인 -->
+    <section id="login-view">
+      <p>문의 확인과 게시글 작성을 위해 로그인합니다.</p>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="email">이메일</label>
+          <input type="email" id="email" autocomplete="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">비밀번호</label>
+          <input type="password" id="password" autocomplete="current-password" required>
+        </div>
+        <button type="submit" class="btn">로그인</button>
+        <p class="form-hint" id="login-msg"></p>
+      </form>
+    </section>
+
+    <!-- 로그인 후 -->
+    <section id="panel-view" hidden>
+      <p style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap">
+        <span class="badge" id="who"></span>
+        <button type="button" class="btn" id="logout" style="background:#555">로그아웃</button>
+      </p>
+
+      <h2>문의 접수</h2>
+      <p class="form-hint" id="inq-count"></p>
+      <div id="inq-list"></div>
+
+      <h2>게시글</h2>
+      <form id="post-form">
+        <input type="hidden" id="post-id">
+        <div class="form-group">
+          <label for="post-category">분류</label>
+          <select id="post-category">
+            <option>공지</option>
+            <option>현장소식</option>
+            <option>성명·입장</option>
+            <option>자료</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="post-title">제목</label>
+          <input type="text" id="post-title" required>
+        </div>
+        <div class="form-group">
+          <label for="post-body">내용</label>
+          <textarea id="post-body" required></textarea>
+        </div>
+        <div class="form-group">
+          <label><input type="checkbox" id="post-published" checked style="width:auto"> 공개</label>
+        </div>
+        <button type="submit" class="btn" id="post-submit">글 등록</button>
+        <button type="button" class="btn" id="post-cancel" style="background:#555" hidden>취소</button>
+        <p class="form-hint" id="post-msg"></p>
+      </form>
+      <div id="post-list"></div>
+    </section>
+  </main>
+
+  <script type="module">
+    import { signIn, signOut, getSession, rest, esc, fmtDateTime } from "./js/site.js";
+
+    const $ = (id) => document.getElementById(id);
+    const loginView = $("login-view");
+    const panelView = $("panel-view");
+
+    function showLogin() {
+      loginView.hidden = false;
+      panelView.hidden = true;
+    }
+
+    async function showPanel() {
+      loginView.hidden = true;
+      panelView.hidden = false;
+      const s = getSession();
+      $("who").textContent = (s && s.user && s.user.email) || "운영자";
+      await Promise.all([loadInquiries(), loadPosts()]);
+    }
+
+    $("login-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      $("login-msg").textContent = "확인 중…";
+      try {
+        await signIn($("email").value.trim(), $("password").value);
+        $("login-msg").textContent = "";
+        await showPanel();
+      } catch (err) {
+        $("login-msg").textContent = err.message;
+      }
+    });
+
+    $("logout").addEventListener("click", () => {
+      signOut();
+      showLogin();
+    });
+
+    // ---------- 문의 ----------
+    async function loadInquiries() {
+      const box = $("inq-list");
+      box.innerHTML = `<p class="form-hint">불러오는 중…</p>`;
+      try {
+        const rows = await rest("inquiries", {
+          query: "?select=*&order=created_at.desc&limit=200",
+        });
+        $("inq-count").textContent = `총 ${rows.length}건`;
+        if (!rows.length) {
+          box.innerHTML = `<p class="form-hint">접수된 문의가 없습니다.</p>`;
+          return;
+        }
+        box.innerHTML = rows.map((r) => `
+          <div class="contact-box">
+            <p style="margin:0 0 .35rem">
+              <strong>${esc(r.name)}</strong> · <a href="mailto:${esc(r.email)}">${esc(r.email)}</a>
+              ${r.phone ? ` · ${esc(r.phone)}` : ""}
+              ${r.handled ? ' · <span class="badge">처리완료</span>' : ' · <span class="badge">미처리</span>'}
+            </p>
+            <p style="margin:0 0 .35rem;color:#555;font-size:.9rem">${fmtDateTime(r.created_at)}${r.subject ? " · " + esc(r.subject) : ""}</p>
+            <p style="white-space:pre-wrap;margin:0 0 .75rem">${esc(r.message)}</p>
+            <button type="button" class="btn" data-handled="${r.id}" data-value="${r.handled ? "false" : "true"}" style="background:${r.handled ? "#555" : "#b91c1c"}">${r.handled ? "미처리로" : "처리완료"}</button>
+            <button type="button" class="btn" data-del-inq="${r.id}" style="background:#777">삭제</button>
+          </div>`).join("");
+      } catch (e) {
+        box.innerHTML = `<p class="form-hint">문의를 불러오지 못했습니다: ${esc(e.message)}</p>`;
+      }
+    }
+
+    $("inq-list").addEventListener("click", async (e) => {
+      const t = e.target.closest("button");
+      if (!t) return;
+      t.disabled = true;
+      try {
+        if (t.dataset.handled) {
+          await rest("inquiries", {
+            method: "PATCH",
+            query: `?id=eq.${t.dataset.handled}`,
+            body: { handled: t.dataset.value === "true" },
+          });
+        } else if (t.dataset.delInq) {
+          if (!confirm("이 문의를 삭제할까요?")) { t.disabled = false; return; }
+          await rest("inquiries", { method: "DELETE", query: `?id=eq.${t.dataset.delInq}` });
+        }
+        await loadInquiries();
+      } catch (err) {
+        alert("실패: " + err.message);
+        t.disabled = false;
+      }
+    });
+
+    // ---------- 게시글 ----------
+    async function loadPosts() {
+      const box = $("post-list");
+      box.innerHTML = `<p class="form-hint">불러오는 중…</p>`;
+      try {
+        const rows = await rest("posts", {
+          query: "?select=id,category,title,body,published,created_at&order=created_at.desc&limit=200",
+        });
+        if (!rows.length) {
+          box.innerHTML = `<p class="form-hint">등록된 글이 없습니다.</p>`;
+          return;
+        }
+        box.innerHTML = `<ul class="list-plain">` + rows.map((p) => `
+          <li>
+            <span class="date">${fmtDateTime(p.created_at)} · ${esc(p.category)}${p.published ? "" : " · 비공개"}</span>
+            <h3 style="margin:.25rem 0"><a href="post.html?id=${p.id}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>
+            <button type="button" class="btn" data-edit="${p.id}" style="background:#555;padding:.35rem .9rem;font-size:.9rem">수정</button>
+            <button type="button" class="btn" data-del-post="${p.id}" style="background:#777;padding:.35rem .9rem;font-size:.9rem">삭제</button>
+          </li>`).join("") + `</ul>`;
+        window.__posts = rows;
+      } catch (e) {
+        box.innerHTML = `<p class="form-hint">글을 불러오지 못했습니다: ${esc(e.message)}</p>`;
+      }
+    }
+
+    $("post-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const id = $("post-id").value;
+      const body = {
+        category: $("post-category").value,
+        title: $("post-title").value.trim(),
+        body: $("post-body").value,
+        published: $("post-published").checked,
+      };
+      $("post-msg").textContent = "저장 중…";
+      try {
+        if (id) {
+          await rest("posts", { method: "PATCH", query: `?id=eq.${id}`, body });
+          $("post-msg").textContent = "수정했습니다.";
+        } else {
+          await rest("posts", { method: "POST", body, prefer: "return=minimal" });
+          $("post-msg").textContent = "등록했습니다.";
+        }
+        resetForm();
+        await loadPosts();
+      } catch (err) {
+        $("post-msg").textContent = "실패: " + err.message;
+      }
+    });
+
+    function resetForm() {
+      $("post-id").value = "";
+      $("post-title").value = "";
+      $("post-body").value = "";
+      $("post-category").value = "공지";
+      $("post-published").checked = true;
+      $("post-submit").textContent = "글 등록";
+      $("post-cancel").hidden = true;
+    }
+
+    $("post-cancel").addEventListener("click", () => { resetForm(); $("post-msg").textContent = ""; });
+
+    $("post-list").addEventListener("click", async (e) => {
+      const t = e.target.closest("button");
+      if (!t) return;
+      if (t.dataset.edit) {
+        const p = (window.__posts || []).find((x) => String(x.id) === t.dataset.edit);
+        if (!p) return;
+        $("post-id").value = p.id;
+        $("post-category").value = p.category;
+        $("post-title").value = p.title;
+        $("post-body").value = p.body;
+        $("post-published").checked = p.published;
+        $("post-submit").textContent = "수정 저장";
+        $("post-cancel").hidden = false;
+        window.scrollTo({ top: $("post-form").offsetTop - 80, behavior: "smooth" });
+      } else if (t.dataset.delPost) {
+        if (!confirm("이 글을 삭제할까요? 되돌릴 수 없습니다.")) return;
+        t.disabled = true;
+        try {
+          await rest("posts", { method: "DELETE", query: `?id=eq.${t.dataset.delPost}` });
+          await loadPosts();
+        } catch (err) {
+          alert("실패: " + err.message);
+          t.disabled = false;
+        }
+      }
+    });
+
+    if (getSession()) await showPanel();
+    else showLogin();
+  </script>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p><strong>한국노총 노동연대</strong></p>
+      <p><a href="index.html">홈으로</a></p>
+    </div>
+  </footer>
+</body>
+</html>

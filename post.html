@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>게시판 글 — 한국노총 노동연대</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">한국노총 <span>노동연대</span></a>
+      <nav class="nav" aria-label="주 메뉴">
+        <a href="index.html">홈</a>
+        <a href="about.html">소개</a>
+        <a href="direction.html">활동방향</a>
+        <a href="news/index.html">소식</a>
+        <a href="articles/index.html">지식</a>
+        <a href="board.html" aria-current="page">게시판</a>
+        <a href="contact.html">문의</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <p><a href="board.html">← 게시판 목록</a></p>
+    <div id="content"><p class="note">불러오는 중…</p></div>
+  </main>
+
+  <script type="module">
+    import { rest, esc, fmtDate } from "./js/site.js";
+
+    const content = document.getElementById("content");
+    const id = new URLSearchParams(location.search).get("id");
+
+    if (!id || !/^\d+$/.test(id)) {
+      content.innerHTML = `<p class="note">글 번호가 올바르지 않습니다.</p>`;
+    } else {
+      try {
+        const rows = await rest("posts", { query: `?select=id,category,title,body,created_at&id=eq.${id}` });
+        if (!rows.length) {
+          content.innerHTML = `<p class="note">글을 찾을 수 없습니다. 삭제되었거나 공개되지 않은 글입니다.</p>`;
+        } else {
+          const p = rows[0];
+          const body = esc(p.body).replace(/\n/g, "<br>");
+          document.title = `${p.title} — 한국노총 노동연대 게시판`;
+          content.innerHTML = `
+            <h1>${esc(p.title)}</h1>
+            <p class="meta"><span class="badge">${esc(p.category)}</span> ${fmtDate(p.created_at)}</p>
+            <div class="article-body">${body}</div>`;
+        }
+      } catch (e) {
+        content.innerHTML = `<p class="note">글을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</p>`;
+      }
+    }
+  </script>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p><strong>한국노총 노동연대</strong></p>
+      <p>서울특별시 영등포구 국제금융로6길 26, 한국노총 빌딩 9층 (07328)</p>
+      <p><a href="board.html">게시판</a> · <a href="contact.html">문의</a></p>
+    </div>
+  </footer>
+</body>
+</html>
