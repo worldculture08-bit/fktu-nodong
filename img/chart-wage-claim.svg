@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="280" viewBox="0 0 760 280" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif"><rect width="760" height="280" fill="#ffffff"/>
+  <text x="380" y="34" font-size="18" fill="#222" font-weight="bold" text-anchor="middle">임금체불 — 순서대로 대응하기</text>
+  <line x1="70" y1="130" x2="690" y2="130" stroke="#e5e5e5" stroke-width="3"/>
+  
+    <circle cx="70" cy="130" r="22" fill="#c0392b"/>
+    <text x="70" y="136" font-size="16" fill="#fff" font-weight="bold" text-anchor="middle">1</text>
+    <text x="70" y="88" font-size="15" fill="#96281b" font-weight="bold" text-anchor="middle">증거 모으기</text>
+    <text x="70" y="176" font-size="12" fill="#666"  text-anchor="middle">근로계약서·임금명세서</text><text x="70" y="196" font-size="12" fill="#666"  text-anchor="middle">출탁기록·통장 사본</text>
+    <circle cx="256" cy="130" r="22" fill="#c0392b"/>
+    <text x="256" y="136" font-size="16" fill="#fff" font-weight="bold" text-anchor="middle">2</text>
+    <text x="256" y="88" font-size="15" fill="#96281b" font-weight="bold" text-anchor="middle">사내 요구</text>
+    <text x="256" y="176" font-size="12" fill="#666"  text-anchor="middle">내용증명으로</text><text x="256" y="196" font-size="12" fill="#666"  text-anchor="middle">지급 요구</text>
+    <circle cx="442" cy="130" r="22" fill="#c0392b"/>
+    <text x="442" y="136" font-size="16" fill="#fff" font-weight="bold" text-anchor="middle">3</text>
+    <text x="442" y="88" font-size="15" fill="#96281b" font-weight="bold" text-anchor="middle">진정서</text>
+    <text x="442" y="176" font-size="12" fill="#666"  text-anchor="middle">관할 노동청에</text><text x="442" y="196" font-size="12" fill="#666"  text-anchor="middle">진정서 제출</text>
+    <circle cx="628" cy="130" r="22" fill="#c0392b"/>
+    <text x="628" y="136" font-size="16" fill="#fff" font-weight="bold" text-anchor="middle">4</text>
+    <text x="628" y="88" font-size="15" fill="#96281b" font-weight="bold" text-anchor="middle">형사 고소</text>
+    <text x="628" y="176" font-size="12" fill="#666"  text-anchor="middle">노동법 위반</text><text x="628" y="196" font-size="12" fill="#666"  text-anchor="middle">고소도 가능</text>
+  <text x="380" y="258" font-size="13.5" fill="#96281b"  text-anchor="middle">소멸시효 전에 움직여야 한다 — 임금채권도 시간이 지나면 사라진다</text>
+</svg>

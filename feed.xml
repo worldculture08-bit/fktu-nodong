@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>한국노총 노동연대</title>
+    <link>https://fktu-nodong.vercel.app/</link>
+    <description>노동 소식, 노동 기초 지식, 성명과 오피니언을 모아 올립니다.</description>
+    <language>ko</language>
+    <lastBuildDate>Thu, 24 Sep 2026 17:40:58 +0900</lastBuildDate>
+    <atom:link href="https://fktu-nodong.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>근로자성 판단 — 계약서 이름보다 실제 지배종속</title>
+      <link>https://fktu-nodong.vercel.app/articles/worker-status-checklist.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/worker-status-checklist.html</guid>
+      <category>지식</category>
+      <description>대표이사·프리랜서·특고에서 근로자성을 가르는 실무 기준 체크리스트</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>노조 탄압·차별 대응 — 부당노동행위로 남기는 법</title>
+      <link>https://fktu-nodong.vercel.app/articles/union-suppression-response.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/union-suppression-response.html</guid>
+      <category>지식</category>
+      <description>가입 강요 금지·불이익 처우·교섭 거부를 어떻게 기록하고 구제할지</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>노조 회계·조합비·전임자 — 운영의 기본</title>
+      <link>https://fktu-nodong.vercel.app/articles/union-finance-and-officers.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/union-finance-and-officers.html</guid>
+      <category>지식</category>
+      <description>노동조합 회계 원칙, 조합비 징수, 전임자 급여 처리 안내</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>병가와 무급휴직 — 회사가 정할 수 있는 범위</title>
+      <link>https://fktu-nodong.vercel.app/articles/sick-leave-unpaid-leave.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/sick-leave-unpaid-leave.html</guid>
+      <category>지식</category>
+      <description>유급병가의 법적 근거, 무급휴직 승인, 요양 중 해고 제한과의 관계</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>퇴직금 IRP 지급 — 언제 꼭 이전해야 하나</title>
+      <link>https://fktu-nodong.vercel.app/articles/severance-irp-payment.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/severance-irp-payment.html</guid>
+      <category>지식</category>
+      <description>퇴직금을 IRP 계좌로 받아야 하는 경우와 예외, 세금 처리까지 정리</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>공휴일·대체휴일 — 유급인가 무급인가</title>
+      <link>https://fktu-nodong.vercel.app/articles/public-holiday-rest-day.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/public-holiday-rest-day.html</guid>
+      <category>지식</category>
+      <description>주휴일·공휴일·대체휴일의 구분, 휴일근로 가산수당과의 관계</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>특수고용·플랫폼 노동 — 노동자성 문제</title>
+      <link>https://fktu-nodong.vercel.app/articles/platform-special-employment.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/platform-special-employment.html</guid>
+      <category>지식</category>
+      <description>특수고용·플랫폼 종사자의 노동자성 판단 기준과 보호 제도 안내</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>노동쟁의 조정·중재 — 노동위원회 활용</title>
+      <link>https://fktu-nodong.vercel.app/articles/labor-dispute-mediation.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/labor-dispute-mediation.html</guid>
+      <category>지식</category>
+      <description>조정·중재 절차의 차이, 신청 방법, 노동위원회의 역할 안내</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>정리해고 — 요건과 절차</title>
+      <link>https://fktu-nodong.vercel.app/articles/mass-layoff.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/mass-layoff.html</guid>
+      <category>지식</category>
+      <description>경영상 해고의 실질·절차 요건과 대응 시 확인 사항 안내</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>포괄임금 — 언제 문제가 되나</title>
+      <link>https://fktu-nodong.vercel.app/articles/inclusive-wage-problem.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/inclusive-wage-problem.html</guid>
+      <category>지식</category>
+      <description>포괄임금 계약의 구조, 최저임금·가산수당 착시, 실무 점검 순서</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>취업규칙 — 작성과 불이익 변경</title>
+      <link>https://fktu-nodong.vercel.app/articles/employment-rules-change.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/employment-rules-change.html</guid>
+      <category>지식</category>
+      <description>취업규칙의 작성·신고 의무, 불이익 변경 시 동의 요건 안내</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>해고예고와 해고수당 — 30일의 의미</title>
+      <link>https://fktu-nodong.vercel.app/articles/dismissal-notice-pay.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/dismissal-notice-pay.html</guid>
+      <category>지식</category>
+      <description>해고예고 의무, 예고 없는 해고 시 통상임금 30일분, 서면통지와의 관계</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>임금명세서 — 교부 의무와 활용법</title>
+      <link>https://fktu-nodong.vercel.app/articles/payroll-statement.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/payroll-statement.html</guid>
+      <category>지식</category>
+      <description>임금명세서에 담겨야 할 항목, 받지 못할 때의 대응, 임금 다툼에서의 활용</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>플랫폼·배달 종사자 — 산재와 고용보험</title>
+      <link>https://fktu-nodong.vercel.app/articles/platform-insurance.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/platform-insurance.html</guid>
+      <category>지식</category>
+      <description>특수형태근로종사자와 플랫폼 종사자가 적용받는 보험 제도</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>원·하청 구조와 사용자 책임</title>
+      <link>https://fktu-nodong.vercel.app/articles/subcontract-liability.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/subcontract-liability.html</guid>
+      <category>지식</category>
+      <description>도급·용역·파견의 구분과 원청의 책임 범위를 정리한 안내</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>직장 내 괴롭힘 — 신고 이후 절차와 대응</title>
+      <link>https://fktu-nodong.vercel.app/articles/harassment-report-process.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/harassment-report-process.html</guid>
+      <category>지식</category>
+      <description>신고를 접수한 회사가 해야 할 조사 절차, 신고자의 권리와 불이익 금지</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>연장·야간·휴일수당 — 청구 준비</title>
+      <link>https://fktu-nodong.vercel.app/articles/overtime-allowance-claim.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/overtime-allowance-claim.html</guid>
+      <category>지식</category>
+      <description>가산수당이 붙는 조건, 근무시간 기록 만들기, 청구 전 정리 순서</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>직장 내 괴롭힘 예방 — 사업주와 노조의 역할</title>
+      <link>https://fktu-nodong.vercel.app/articles/employer-harassment-duty.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/employer-harassment-duty.html</guid>
+      <category>지식</category>
+      <description>예방 교육·신고 체계·조사 절차를 사업장 규범으로 만드는 방법</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>고용보험 급여 — 육아휴직·출산전후 휴가</title>
+      <link>https://fktu-nodong.vercel.app/articles/employment-insurance-leave-benefits.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/employment-insurance-leave-benefits.html</guid>
+      <category>지식</category>
+      <description>육아휴직급여와 출산전후휴가 급여의 신청 요건, 회사가 해야 할 일</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>차별과 평등 — 무엇이 문제가 되나</title>
+      <link>https://fktu-nodong.vercel.app/articles/equality-non-discrimination.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/equality-non-discrimination.html</guid>
+      <category>지식</category>
+      <description>성별·고용형태·연령 등에 따른 차별 금지와 대응 방법 안내</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>5인 미만 사업장 — 적용되는 법과 그렇지 않은 법</title>
+      <link>https://fktu-nodong.vercel.app/articles/five-employee-workplace.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/five-employee-workplace.html</guid>
+      <category>지식</category>
+      <description>해고예고·연차·취업규칙 등 5인 미만에서 달라지는 지점을 정리</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>탄력·선택·재량근로제 — 무엇이 다른가</title>
+      <link>https://fktu-nodong.vercel.app/articles/flexible-working-hours.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/flexible-working-hours.html</guid>
+      <category>지식</category>
+      <description>유연근로제도의 종류, 도입 요건, 적용 시 확인할 사항 안내</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>외국인 근로자 — 입국부터 권리까지</title>
+      <link>https://fktu-nodong.vercel.app/articles/foreign-workers.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/foreign-workers.html</guid>
+      <category>지식</category>
+      <description>고용허가제 구조, 외국인 근로자의 노동권, 현장에서 자주 겪는 문제 안내</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>특수고용·프리랜서 — 근로자성은 어떻게 판단하나</title>
+      <link>https://fktu-nodong.vercel.app/articles/dependent-contractor-status.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/dependent-contractor-status.html</guid>
+      <category>지식</category>
+      <description>계약서 이름과 실제 근무 형태가 다를 때, 근로자성을 판단하는 기준</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>징계 — 감봉·정직·해고의 요건과 대응</title>
+      <link>https://fktu-nodong.vercel.app/articles/disciplinary-action.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/disciplinary-action.html</guid>
+      <category>지식</category>
+      <description>징계의 종류와 한계, 징계위원회 절차, 징계 통보 후 대응 순서</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>권고사직 — 거부할 수 있는가</title>
+      <link>https://fktu-nodong.vercel.app/articles/constructive-dismissal.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/constructive-dismissal.html</guid>
+      <category>지식</category>
+      <description>권고사직의 성격, 거부 시 불이익, 실업급여·부당해고와의 관계</description>
+      <pubDate>Thu, 24 Sep 2026 17:40:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>출산전후휴가와 육아휴직 — 권리와 복귀</title>
+      <link>https://fktu-nodong.vercel.app/articles/maternity-parental-leave.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/maternity-parental-leave.html</guid>
+      <category>지식</category>
+      <description>출산·육아 관련 휴가·휴직 제도와 불이익 금지, 복귀 시 유의점 안내</description>
+      <pubDate>Thu, 24 Sep 2026 17:33:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>4대보험과 산재보험 — 가입과 혜택</title>
+      <link>https://fktu-nodong.vercel.app/articles/four-insurances.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/four-insurances.html</guid>
+      <category>지식</category>
+      <description>4대보험 가입 요건, 미가입 문제, 산재보험의 특징 안내</description>
+      <pubDate>Thu, 24 Sep 2026 17:33:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>퇴직금 중간정산 — 사유별로 무엇이 다른가</title>
+      <link>https://fktu-nodong.vercel.app/articles/severance-midterm-settlement.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/severance-midterm-settlement.html</guid>
+      <category>지식</category>
+      <description>임신·출산·요양 등 법정 사유와 합의 사유의 차이, 증빙 서류, 재정산까지 정리</description>
+      <pubDate>Thu, 24 Sep 2026 17:33:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>직장 내 괴롭힘 — 판단 기준과 대응</title>
+      <link>https://fktu-nodong.vercel.app/articles/workplace-bullying.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/workplace-bullying.html</guid>
+      <category>지식</category>
+      <description>직장 내 괴롭힘의 요건, 사업주 의무, 신고와 조사 절차 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>직장 내 성희롱 — 예방과 대응</title>
+      <link>https://fktu-nodong.vercel.app/articles/workplace-sexual-harassment.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/workplace-sexual-harassment.html</guid>
+      <category>지식</category>
+      <description>직장 내 성희롱의 범위, 사업주 예방 의무, 신고자 보호 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>근로시간과 연장·야간·휴일수당 기초</title>
+      <link>https://fktu-nodong.vercel.app/articles/working-hours-overtime.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/working-hours-overtime.html</guid>
+      <category>지식</category>
+      <description>법정 근로시간, 연장근로 한도, 가산임금 계산 구조를 정리한 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>노동조합 설립 — 절차와 준비물</title>
+      <link>https://fktu-nodong.vercel.app/articles/union-setup.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/union-setup.html</guid>
+      <category>지식</category>
+      <description>노동조합 설립의 자유, 규약 작성, 설립신고 절차 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>임금체불 — 확인과 대응 절차</title>
+      <link>https://fktu-nodong.vercel.app/articles/wage-arrears.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/wage-arrears.html</guid>
+      <category>지식</category>
+      <description>임금체불이 발생했을 때 기록·진정·지연이자까지 순서대로 정리한 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>부당노동행위 — 유형과 구제 절차</title>
+      <link>https://fktu-nodong.vercel.app/articles/unfair-labor-practice.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/unfair-labor-practice.html</guid>
+      <category>지식</category>
+      <description>노동조합법이 금지하는 사용자 행위 유형과 구제신청 방법 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>실업급여(구직급여) — 수급 요건과 신청</title>
+      <link>https://fktu-nodong.vercel.app/articles/unemployment-benefits.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/unemployment-benefits.html</guid>
+      <category>지식</category>
+      <description>이직 사유 신고, 수급 자격, 실업 인정 절차와 자주 걸리는 지점</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>해고와 부당해고 구제 절차</title>
+      <link>https://fktu-nodong.vercel.app/articles/unfair-dismissal.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/unfair-dismissal.html</guid>
+      <category>지식</category>
+      <description>해고의 정당성 요건과 노동위원회 구제신청 절차·기간 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>쟁의행위(파업) — 합법 요건과 절차</title>
+      <link>https://fktu-nodong.vercel.app/articles/strike-legal-basics.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/strike-legal-basics.html</guid>
+      <category>지식</category>
+      <description>쟁의행위의 절차적 요건, 조정 신청, 찬반투표, 면책 범위를 정리한 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>노동 권리의 소멸시효 — 언제까지 다툴 수 있나</title>
+      <link>https://fktu-nodong.vercel.app/articles/statute-of-limitations.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/statute-of-limitations.html</guid>
+      <category>지식</category>
+      <description>임금·퇴직금·구제신청·차별시정의 기간 제한을 한눈에 정리</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>산업안전보건위원회 — 근로자 참여 창구</title>
+      <link>https://fktu-nodong.vercel.app/articles/safety-health-committee.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/safety-health-committee.html</guid>
+      <category>지식</category>
+      <description>산업안전보건위원회 구성·심의 사항과 현장에서 활용하는 방법 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>퇴직금 — 발생 요건과 산정</title>
+      <link>https://fktu-nodong.vercel.app/articles/severance-pay.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/severance-pay.html</guid>
+      <category>지식</category>
+      <description>퇴직금 지급 요건, 평균임금 산정, 지급 기한과 미지급 대응 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>직업병·업무상 질병 — 인정 기준과 준비</title>
+      <link>https://fktu-nodong.vercel.app/articles/occupational-disease.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/occupational-disease.html</guid>
+      <category>지식</category>
+      <description>업무와 질병의 관련성을 어떻게 입증하는지, 신청 전에 모아야 할 자료</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>최저임금 점검 — 빠뜨리기 쉬운 경우</title>
+      <link>https://fktu-nodong.vercel.app/articles/minimum-wage-check.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/minimum-wage-check.html</guid>
+      <category>지식</category>
+      <description>최저임금 판단 기준, 수습·도급·파견에서 생기는 착시, 점검 순서</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>최저임금과 주휴수당 기초</title>
+      <link>https://fktu-nodong.vercel.app/articles/minimum-wage-weekly-holiday.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/minimum-wage-weekly-holiday.html</guid>
+      <category>지식</category>
+      <description>최저임금 적용 방식과 주휴수당 발생 요건을 정리한 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>노동위원회 구제신청 — 절차와 준비</title>
+      <link>https://fktu-nodong.vercel.app/articles/labor-commission-remedy.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/labor-commission-remedy.html</guid>
+      <category>지식</category>
+      <description>부당해고·부당노동행위 구제신청의 기한, 신청서 구성, 심문 준비</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>진정서 작성과 근로감독 요청</title>
+      <link>https://fktu-nodong.vercel.app/articles/labor-complaint-guide.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/labor-complaint-guide.html</guid>
+      <category>지식</category>
+      <description>임금체불·근로조건 위반을 근로감독관에게 알리는 절차와 진정서 쓰는 법</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>산재보험 급여 — 휴업·장해·유족·간병</title>
+      <link>https://fktu-nodong.vercel.app/articles/industrial-accident-benefits.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/industrial-accident-benefits.html</guid>
+      <category>지식</category>
+      <description>산재 승인 후 받을 수 있는 급여의 종류와 각각의 요건</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>산업재해 — 인정 요건과 신청 절차</title>
+      <link>https://fktu-nodong.vercel.app/articles/industrial-accident-claim.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/industrial-accident-claim.html</guid>
+      <category>지식</category>
+      <description>업무상 재해 인정 기준과 요양급여·휴업급여 등 신청 절차 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>노동 사건 증거 정리 — 무엇을 어떻게 모을까</title>
+      <link>https://fktu-nodong.vercel.app/articles/evidence-checklist.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/evidence-checklist.html</guid>
+      <category>지식</category>
+      <description>임금·해고·괴롭힘 사건에서 설득력 있는 자료를 만드는 방법과 보관 원칙</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>근로계약서 — 서명 전에 볼 것</title>
+      <link>https://fktu-nodong.vercel.app/articles/employment-contract-checklist.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/employment-contract-checklist.html</guid>
+      <category>지식</category>
+      <description>근로계약서 필수 기재사항과 자주 문제 되는 조항 점검 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>해고 절차 — 서면통지·해고예고·구제신청</title>
+      <link>https://fktu-nodong.vercel.app/articles/dismissal-procedure.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/dismissal-procedure.html</guid>
+      <category>지식</category>
+      <description>해고가 유효하려면 갖춰야 할 절차와, 통보받았을 때 해야 할 일</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>내용증명과 서면 통지 — 요구를 남기는 방법</title>
+      <link>https://fktu-nodong.vercel.app/articles/content-certified-mail.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/content-certified-mail.html</guid>
+      <category>지식</category>
+      <description>임금·퇴직금·복직 요구를 문서로 남기는 이유와 작성 요령</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>교섭 창구 단일화 — 절차와 실무</title>
+      <link>https://fktu-nodong.vercel.app/articles/bargaining-unit-singleization.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/bargaining-unit-singleization.html</guid>
+      <category>지식</category>
+      <description>여러 노조가 있는 사업장에서 교섭 대표를 정하는 절차와 유의점</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>단체교섭 — 요구에서 협약 체결까지</title>
+      <link>https://fktu-nodong.vercel.app/articles/collective-bargaining.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/collective-bargaining.html</guid>
+      <category>지식</category>
+      <description>교섭 요구, 대표자 자격, 교섭 절차와 합의 효력을 순서대로 정리한 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>평균임금과 통상임금 — 계산의 두 기준</title>
+      <link>https://fktu-nodong.vercel.app/articles/average-wage-ordinary-wage.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/average-wage-ordinary-wage.html</guid>
+      <category>지식</category>
+      <description>퇴직금·휴업수당은 평균임금, 연장·휴일수당은 통상임금. 두 기준의 차이와 확인 방법</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>연차휴가 — 발생과 사용</title>
+      <link>https://fktu-nodong.vercel.app/articles/annual-leave.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/annual-leave.html</guid>
+      <category>지식</category>
+      <description>연차휴가 발생 기준, 사용 촉진, 미사용 수당 안내</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>산재 은폐 — 사업장에서 벌어지는 일과 대응</title>
+      <link>https://fktu-nodong.vercel.app/articles/accident-concealment.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/accident-concealment.html</guid>
+      <category>지식</category>
+      <description>재해를 숨기거나 축소하는 방식, 그때 남겨야 할 기록, 신고와 대응</description>
+      <pubDate>Thu, 24 Sep 2026 14:53:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>노동조합이란 무엇인가</title>
+      <link>https://fktu-nodong.vercel.app/articles/what-is-union.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/what-is-union.html</guid>
+      <category>지식</category>
+      <description>노동조합은 노동자가 임금·근로조건·고용 안정·산업안전 등 공통의 이해관계를 지키기 위해 자주적으로 결성하는 조직입니다.</description>
+      <pubDate>Thu, 24 Sep 2026 14:50:52 +0900</pubDate>
+    </item>
+    <item>
+      <title>산업안전과 중대재해처벌법 개요</title>
+      <link>https://fktu-nodong.vercel.app/articles/safety-serious-accident.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/safety-serious-accident.html</guid>
+      <category>지식</category>
+      <description>산업안전은 ‘사고가 난 뒤의 보상’보다 ‘사고를 막는 예방’이 핵심입니다.</description>
+      <pubDate>Thu, 24 Sep 2026 14:50:52 +0900</pubDate>
+    </item>
+    <item>
+      <title>한국노총 노동연대, 김승원 법무부장관 후보자 지지 입장 표명</title>
+      <link>https://fktu-nodong.vercel.app/news/2026-09-14-kim-seungwon.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/news/2026-09-14-kim-seungwon.html</guid>
+      <category>소식</category>
+      <description>2026.09.14 중부일보 보도 요약: 경기 노동현장 활동가들의 김승원 후보자 지지 입장</description>
+      <pubDate>Thu, 24 Sep 2026 14:44:36 +0900</pubDate>
+    </item>
+    <item>
+      <title>한국노총 노동연대 홈페이지 안내 — 소식·지식·문의를 한 곳에</title>
+      <link>https://fktu-nodong.vercel.app/news/2026-09-16-site-guide.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/news/2026-09-16-site-guide.html</guid>
+      <category>소식</category>
+      <description>한국노총 노동연대 홈페이지(fktu-nodong.vercel.app) 안내 — 메뉴 구성과 활용법</description>
+      <pubDate>Thu, 24 Sep 2026 14:44:36 +0900</pubDate>
+    </item>
+    <item>
+      <title>개정 노조법 시행 이후 원·하청 교섭 첫 타결 — 현대제철</title>
+      <link>https://fktu-nodong.vercel.app/news/2026-09-10-wonhacheong-agreement.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/news/2026-09-10-wonhacheong-agreement.html</guid>
+      <category>소식</category>
+      <description>2026.09.10 고용노동부 보도참고 요약: 개정 노동조합법 시행 이후 원·하청 교섭 타결 첫 사례</description>
+      <pubDate>Thu, 24 Sep 2026 14:44:36 +0900</pubDate>
+    </item>
+    <item>
+      <title>김승원 법무부 장관 후보자 지지선언문</title>
+      <link>https://fktu-nodong.vercel.app/news/2026-09-14-kim-seungwon-statement.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/news/2026-09-14-kim-seungwon-statement.html</guid>
+      <category>소식</category>
+      <description>2026.09.14 한국노총 노동연대 일동, 김승원 법무부 장관 후보자 지지선언문 전문과 연대의 주축</description>
+      <pubDate>Thu, 24 Sep 2026 14:44:36 +0900</pubDate>
+    </item>
+    <item>
+      <title>500인 이상 사업장, 하청 노동자 사망사고 공개 의무 — 8월 1일 시행</title>
+      <link>https://fktu-nodong.vercel.app/news/2026-08-01-safety-disclosure.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/news/2026-08-01-safety-disclosure.html</guid>
+      <category>소식</category>
+      <description>2026.08.01 시행 산업안전보건법 시행령 개정: 안전보건공시 대상과 위험성평가 과태료</description>
+      <pubDate>Thu, 24 Sep 2026 14:44:36 +0900</pubDate>
+    </item>
+    <item>
+      <title>2027년 적용 최저임금 시간급 10,700원 — 결정·고시</title>
+      <link>https://fktu-nodong.vercel.app/news/2026-08-05-minimum-wage-2027.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/news/2026-08-05-minimum-wage-2027.html</guid>
+      <category>소식</category>
+      <description>2027년 적용 최저임금 시간급 10,700원 결정·고시 (2026.08.05) 요약</description>
+      <pubDate>Thu, 24 Sep 2026 14:44:36 +0900</pubDate>
+    </item>
+    <item>
+      <title>퇴직급여 — 퇴직금과 퇴직연금의 차이</title>
+      <link>https://fktu-nodong.vercel.app/articles/retirement-benefit-types.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/retirement-benefit-types.html</guid>
+      <category>지식</category>
+      <description>퇴직금·DB·DC·IRP의 구조 차이와 수급 요건, 퇴직할 때 확인할 것</description>
+      <pubDate>Thu, 24 Sep 2026 14:44:36 +0900</pubDate>
+    </item>
+    <item>
+      <title>노동3권과 노동조합법 기초</title>
+      <link>https://fktu-nodong.vercel.app/articles/labor-rights-basics.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/labor-rights-basics.html</guid>
+      <category>지식</category>
+      <description>대한민국 헌법은 근로자에게 단결권·단체교섭권·단체행동권을 보장합니다. 이른바 노동3권입니다. 「노동조합 및 노동관계조정법」(노동조합법)은 이 권리를 구체화하는 핵심 법률로, 노조의 설립·운영, 단체교섭과 협약, 쟁의행위와 조정, 부당노동행위 금지 등을 다룹니다.</description>
+      <pubDate>Thu, 24 Sep 2026 14:44:36 +0900</pubDate>
+    </item>
+    <item>
+      <title>비정규직·불법파견 기본 개념</title>
+      <link>https://fktu-nodong.vercel.app/articles/irregular-dispatch.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/irregular-dispatch.html</guid>
+      <category>지식</category>
+      <description>‘비정규직’은 법률상 단일한 정의라기보다, 기간의 정함이 있는 근로(기간제), 단시간 근로, 파견근로, 용역·도급 형태의 간접고용, 특수고용 등 다양한 고용형태를 아우르는 현장 용어에 가깝습니다. 공통점은 고용 불안·차별·권리 공백이 상대적으로 크게 나타난다는 점입니다.</description>
+      <pubDate>Thu, 24 Sep 2026 14:44:36 +0900</pubDate>
+    </item>
+    <item>
+      <title>기간제·단시간 근로자 — 사용기간 제한과 차별 금지</title>
+      <link>https://fktu-nodong.vercel.app/articles/fixed-term-worker-protection.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/fixed-term-worker-protection.html</guid>
+      <category>지식</category>
+      <description>기간제 사용의 제한, 무기계약 전환 논의, 단시간 근로자 보호 기준</description>
+      <pubDate>Thu, 24 Sep 2026 14:44:36 +0900</pubDate>
+    </item>
+    <item>
+      <title>취업규칙 — 작성·변경과 근로자 동의</title>
+      <link>https://fktu-nodong.vercel.app/articles/employment-rules-writing.html</link>
+      <guid isPermaLink="true">https://fktu-nodong.vercel.app/articles/employment-rules-writing.html</guid>
+      <category>지식</category>
+      <description>취업규칙에 담기는 내용, 불이익 변경 시 필요한 동의 절차, 규정을 확인하는 방법</description>
+      <pubDate>Thu, 24 Sep 2026 14:44:36 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

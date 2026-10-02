@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif"><rect width="760" height="300" fill="#ffffff"/>
+  <text x="380" y="34" font-size="18" fill="#222" font-weight="bold" text-anchor="middle">노동조합이 있는 사업장 vs 없는 사업장</text>
+  <text x="380" y="58" font-size="12" fill="#666"  text-anchor="middle">※ 일반적 경향을 그린 개념도입니다 (특정 통계 아님)</text>
+  <rect x="90" y="90" width="250" height="60" rx="8" fill="#3d7a4f" opacity="0.85"/>
+  <text x="215" y="126" font-size="14" fill="#fff" font-weight="bold" text-anchor="middle">교섭으로 임금·조건 개선</text>
+  <rect x="90" y="170" width="250" height="60" rx="8" fill="#3d7a4f" opacity="0.6"/>
+  <text x="215" y="206" font-size="14" fill="#fff" font-weight="bold" text-anchor="middle">부당 대우에 대한 집단 대응</text>
+  <rect x="420" y="90" width="250" height="60" rx="8" fill="#bbb"/>
+  <text x="545" y="126" font-size="14" fill="#fff" font-weight="bold" text-anchor="middle">혼자서 회사와 맞서야 함</text>
+  <rect x="420" y="170" width="250" height="60" rx="8" fill="#ccc"/>
+  <text x="545" y="206" font-size="14" fill="#555" font-weight="bold" text-anchor="middle">조건 변경 요구도 개인 단위</text>
+  <text x="215" y="268" font-size="14" fill="#3d7a4f" font-weight="bold" text-anchor="middle">조합 있음</text>
+  <text x="545" y="268" font-size="14" fill="#666" font-weight="bold" text-anchor="middle">조합 없음</text>
+</svg>

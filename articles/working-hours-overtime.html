@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>근로시간과 연장·야간·휴일수당 기초 | 한국노총 노동연대</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" href="../logo.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="한국노총 노동연대 — 새 글" href="../feed.xml">
+  <meta name="description" content="법정 근로시간, 연장근로 한도, 가산임금 계산 구조를 정리한 안내">
+  <link rel="canonical" href="https://fktu-nodong.vercel.app/articles/working-hours-overtime.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="한국노총 노동연대">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="근로시간과 연장·야간·휴일수당 기초">
+  <meta property="og:description" content="법정 근로시간, 연장근로 한도, 가산임금 계산 구조를 정리한 안내">
+  <meta property="og:url" content="https://fktu-nodong.vercel.app/articles/working-hours-overtime.html">
+  <meta property="og:image" content="https://fktu-nodong.vercel.app/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="한국노총 노동연대 로고와 소개 문구">
+  <meta property="article:published_time" content="2026-09-19">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><img class="brand-mark" src="../logo.svg" alt="" width="28" height="28">한국노총 <span>노동연대</span></a>
+      <nav class="nav" aria-label="주 메뉴">
+        <a href="../index.html">홈</a>
+        <a href="../about.html">소개</a>
+        <a href="../direction.html">활동방향</a>
+        <a href="../news/index.html">소식</a>
+        <a href="../articles/index.html" aria-current="page">지식</a>
+        <a href="../board.html">게시판</a>
+        <a href="../join.html">회원가입</a>
+        <a href="../contact.html">문의</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <p><a href="index.html">← 지식 목록</a></p>
+    <h1>근로시간과 연장·야간·휴일수당 기초</h1>
+    <p class="meta"><span class="badge">안내·해설</span> 일반 교육용 정리 · 법률 자문 아님 · 작성 2026-09-19 · 수정 2026-09-19 · 정리: 한국노총 노동연대</p>
+    <div class="article-body">
+      <p>수당 문제는 대부분 <strong>“내 근로시간이 어떻게 기록됐는가”</strong>에서 갈립니다. 계산식보다 기록이 먼저입니다. 이 글은 법정 근로시간 구조부터 연장·야간·휴일 가산, 포괄임금 점검, 기록 남기는 법까지 순서대로 정리한 안내입니다. 통상임금 범위와 가산 적용은 판례·해석에 따라 달라질 수 있으므로 마지막 점검표까지 읽고 <a href="overtime-allowance-claim.html">연장수당 청구 글</a>·전문가 상담으로 확인하세요.</p>
+      <figure style="margin:1.5rem 0;text-align:center"><img src="../img/chart-calc.svg" alt="근로시간과 수당 계산 구조 개념도" style="max-width:100%;height:auto;border:1px solid #e5e5e5;border-radius:8px"><figcaption style="font-size:.85rem;color:#777">기록 → 시간 확정 → 통상시급 → 가산 적용 (개념도)</figcaption></figure>
+      <h2>한눈에 보는 표</h2>
+      <table style="width:100%;border-collapse:collapse;font-size:.95rem">
+        <thead><tr><th style="border:1px solid #e5e5e5;background:#fafafa;padding:.5rem">구분</th><th style="border:1px solid #e5e5e5;background:#fafafa;padding:.5rem">기준</th><th style="border:1px solid #e5e5e5;background:#fafafa;padding:.5rem">기록할 것</th></tr></thead>
+        <tbody>
+          <tr><td style="border:1px solid #e5e5e5;padding:.5rem">법정 근로시간</td><td style="border:1px solid #e5e5e5;padding:.5rem">주 40시간·일 8시간 원칙, 연장 한도 별도</td><td style="border:1px solid #e5e5e5;padding:.5rem">소정·연장 구분 출퇴근 기록</td></tr>
+          <tr><td style="border:1px solid #e5e5e5;padding:.5rem">가산 사유</td><td style="border:1px solid #e5e5e5;padding:.5rem">연장·야간·휴일, 겹치면 중복 여부 판단</td><td style="border:1px solid #e5e5e5;padding:.5rem">야간·휴일 시간대 표시</td></tr>
+          <tr><td style="border:1px solid #e5e5e5;padding:.5rem">포괄임금</td><td style="border:1px solid #e5e5e5;padding:.5rem">약정 시간 vs 실제 시간 대조</td><td style="border:1px solid #e5e5e5;padding:.5rem">계약서 시간과 실제 기록 비교표</td></tr>
+        </tbody>
+      </table>
+      <h2>1. 법정 근로시간의 기본 구조</h2>
+      <ul>
+        <li>1주 법정 근로시간과 1일 한도, 연장근로 한도가 따로 정해져 있습니다. 한도를 넘긴 근로는 위법이면서 동시에 가산임금 대상이 됩니다.</li>
+        <li>근로기준법의 상당 부분은 일정 규모 이상 사업장에 적용됩니다. 사업장 규모에 따라 적용 여부가 달라지는 항목이 있으므로 자기 사업장 기준을 먼저 확인하세요.</li>
+        <li>휴게시간은 근로시간이 아닙니다. “휴게”인데 자리를 못 비웠다면 근로시간에 해당하는지 따져봐야 합니다.</li>
+      </ul>
+      <h2>2. 가산임금이 붙는 경우</h2>
+      <ul>
+        <li>연장근로, 야간근로, 휴일근로에는 통상임금에 가산율을 더해 지급합니다. 각 사유가 겹치면(예: 휴일 야간) 중복해서 가산되는지 여부를 따져야 합니다. 통상시급 기준은 <a href="average-wage-ordinary-wage.html">평균·통상임금 글</a>을 보세요.</li>
+        <li>휴일근로는 8시간 이내와 초과분의 가산율이 다릅니다. 명절·공휴일 근무가 여기에 해당하는지도 확인 대상입니다.</li>
+        <li>가산 계산 전에 통상임금 범위를 확정해야 합니다. 고정수당 포함 여부가 금액을 바꿉니다.</li>
+      </ul>
+      <h2>3. 포괄임금제의 함정 — 약정 vs 실제</h2>
+      <ul>
+        <li>“수당 포함”이라는 계약 문구가 있어도 실제 근로시간이 그보다 훨씬 많으면 다툼이 생깁니다. 계약서에 적힌 시간과 실제 출퇴근 기록을 비교해 표로 만드세요.</li>
+        <li>감시·단속적 근로 등 승인을 받은 경우에는 근로시간 규정이 달리 적용됩니다. 승인 여부·승인 범위를 확인하지 않으면 판단을 잘못하기 쉽습니다.</li>
+        <li>포괄약정이 유효하려면 약정 시간·금액이 명확하고 실제 근로와 크게 어긋나지 않아야 합니다. 어긋남이 크면 차액 청구가 문제 됩니다.</li>
+      </ul>
+      <h2>4. 기록을 남기는 방법</h2>
+      <ul>
+        <li>출퇴근 시각, 작업 시작·종료, 휴게 시간을 본인이 따로 기록하세요. 사내 시스템에 없는 시간(사전 준비, 인수인계, 대기)도 적어 두세요.</li>
+        <li>지시가 구두로만 오는 사업장이라면 메신저·문자로 확인하는 습관이 기록을 만듭니다. 관련 글 <a href="evidence-checklist.html">증거 점검표</a> 양식을 그대로 쓰세요.</li>
+        <li>월말에 명세서와 대조해 누락된 시간을 표시하세요. 누락이 반복되면 사업장 차원의 개선 요구로 이어가세요.</li>
+      </ul>
+      <h2>자주 틀리는 3가지</h2>
+      <ul>
+        <li><strong>“포괄이라 초과수당 없다”</strong> — 약정 시간을 초과한 근로는 차액 문제가 생깁니다.</li>
+        <li><strong>“휴게시간도 근로시간”</strong> — 자유 이용이 보장된 휴게는 제외됩니다. 대기와의 구분이 핵심입니다.</li>
+        <li><strong>“야간·휴일 겹쳐도 한 번만”</strong> — 중복 가산 여부를 따져야 합니다.</li>
+      </ul>
+      <h2>현장 체크리스트</h2>
+      <ul>
+        <li>□ 소정·연장을 구분해 매일 기록했는가</li>
+        <li>□ 야간·휴일 시간대를 표시했는가</li>
+        <li>□ 계약서 약정 시간과 실제 시간을 비교했는가</li>
+        <li>□ 통상시급 계산 근거를 적었는가</li>
+        <li>□ 월말 명세서와 대조했는가</li>
+      </ul>
+      <h2>자주 묻는 질문</h2>
+      <ul>
+        <li><strong>Q. 출퇴근 기록이 회사에만 있습니다.</strong> — A. 본인 기록을 따로 만드세요. 사진·메모·메신저 확인이 보조 증거가 됩니다.</li>
+        <li><strong>Q. 준비·마감 시간이 근무인가요?</strong> — A. 사용자의 지휘 아래 의무적으로 한 시간이면 해당할 수 있습니다. 실태를 기록하세요.</li>
+        <li><strong>Q. 포괄임금인데 야근이 많습니다.</strong> — A. 약정 시간과 실제를 비교해 차액을 계산하고 <a href="overtime-allowance-claim.html">청구 글</a> 순서대로 진행하세요.</li>
+        <li><strong>Q. 휴일 근무했는데 평일 수당과 같답니다.</strong> — A. 휴일 가산 규정을 적용해야 합니다. 명세서 항목을 확인하세요.</li>
+      </ul>
+      <h2>근거와 원문</h2>
+      <ul>
+        <li>근로기준법 근로시간·가산임금 규정 — <a href="https://www.law.go.kr/">국가법령정보센터</a></li>
+        <li>근로시간 해석과 지침 — <a href="https://www.moel.go.kr/">고용노동부</a> 누리집</li>
+        <li>관련 글: <a href="overtime-allowance-claim.html">연장수당 청구</a> · <a href="average-wage-ordinary-wage.html">통상임금</a> · <a href="payroll-statement.html">급여명세서</a></li>
+      </ul>
+      <div class="note">이 글은 2026-09-19 기준 일반 안내입니다. 통상임금 범위와 가산율 적용은 판례·행정해석에 따라 달라질 수 있으므로 전문가 확인이 필요합니다. 법률 자문이 아닙니다.</div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p><strong>한국노총 노동연대</strong></p>
+      <p>서울특별시 영등포구 국제금융로6길 26, 한국노총 빌딩 9층 (07328)</p>
+      <p><a href="../join.html">회원가입</a> · <a href="../contact.html">문의</a> · <a href="../admin.html">운영자 로그인</a></p>
+      <p><a href="../privacy.html">개인정보처리방침</a> · <a href="../terms.html">이용약관</a></p>
+    </div>
+  </footer>
+</body>
+</html>

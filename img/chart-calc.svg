@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif"><rect width="760" height="340" fill="#ffffff"/>
+  <text x="380" y="34" font-size="18" fill="#222" font-weight="bold" text-anchor="middle">수당 계산 구조 (예시)</text>
+  <text x="380" y="58" font-size="12" fill="#666"  text-anchor="middle">※ 아래 숫자는 계산 방식 설명을 위한 가상 예시입니다</text>
+  
+    <text x="150" y="106" font-size="13.5" fill="#222" font-weight="bold" text-anchor="start">기본급</text>
+    <rect x="230" y="84" width="360" height="30" rx="5" fill="#c0392b" opacity="0.85"/>
+    <text x="602" y="105" font-size="12.5" fill="#666"  text-anchor="start">2,000,000원</text>
+    <text x="150" y="150" font-size="13.5" fill="#222" font-weight="bold" text-anchor="start">연장수당</text>
+    <rect x="230" y="128" width="240" height="30" rx="5" fill="#2c5f8a" opacity="0.85"/>
+    <text x="482" y="149" font-size="12.5" fill="#666"  text-anchor="start">350,000원</text>
+    <text x="150" y="194" font-size="13.5" fill="#222" font-weight="bold" text-anchor="start">야간수당</text>
+    <rect x="230" y="172" width="160" height="30" rx="5" fill="#2c5f8a" opacity="0.85"/>
+    <text x="402" y="193" font-size="12.5" fill="#666"  text-anchor="start">250,000원</text>
+    <text x="150" y="238" font-size="13.5" fill="#222" font-weight="bold" text-anchor="start">휴일수당</text>
+    <rect x="230" y="216" width="120" height="30" rx="5" fill="#2c5f8a" opacity="0.85"/>
+    <text x="362" y="237" font-size="12.5" fill="#666"  text-anchor="start">200,000원</text>
+    <text x="150" y="282" font-size="13.5" fill="#222" font-weight="bold" text-anchor="start">연차수당</text>
+    <rect x="230" y="260" width="200" height="30" rx="5" fill="#3d7a4f" opacity="0.85"/>
+    <text x="442" y="281" font-size="12.5" fill="#666"  text-anchor="start">200,000원</text>
+  <line x1="230" y1="300" x2="670" y2="300" stroke="#e5e5e5" stroke-width="2"/>
+  <text x="230" y="326" font-size="14" fill="#222" font-weight="bold" text-anchor="start">합계</text>
+  <text x="470" y="326" font-size="14" fill="#96281b" font-weight="bold" text-anchor="start">3,000,000원</text>
+  <text x="660" y="326" font-size="11.5" fill="#666"  text-anchor="end">(가상 예시)</text>
+</svg>

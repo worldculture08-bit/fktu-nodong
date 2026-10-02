@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif"><rect width="760" height="320" fill="#ffffff"/>
+  <text x="380" y="34" font-size="18" fill="#222" font-weight="bold" text-anchor="middle">산업재해 — 신고부터 급여까지</text>
+  
+    <rect x="60" y="70" width="300" height="86" rx="10" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+    <text x="210" y="102" font-size="15.5" fill="#96281b" font-weight="bold" text-anchor="middle">사고 발생</text>
+    <text x="210" y="126" font-size="12" fill="#666"  text-anchor="middle">요양 필요</text>
+  
+    <rect x="60" y="190" width="300" height="86" rx="10" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+    <text x="210" y="222" font-size="15.5" fill="#96281b" font-weight="bold" text-anchor="middle">의료기관 진료</text>
+    <text x="210" y="246" font-size="12" fill="#666"  text-anchor="middle">산재 지정병원 확인</text>
+  
+    <rect x="400" y="70" width="300" height="86" rx="10" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+    <text x="550" y="102" font-size="15.5" fill="#96281b" font-weight="bold" text-anchor="middle">요양급여 신청</text>
+    <text x="550" y="126" font-size="12" fill="#666"  text-anchor="middle">사업주가 신청</text><text x="550" y="145" font-size="12" fill="#666"  text-anchor="middle">안 하면 본인도 가능</text>
+  
+    <rect x="400" y="190" width="300" height="86" rx="10" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+    <text x="550" y="222" font-size="15.5" fill="#96281b" font-weight="bold" text-anchor="middle">급여 결정·지급</text>
+    <text x="550" y="246" font-size="12" fill="#666"  text-anchor="middle">휴업급여 등</text>
+  
+  <path d="M360 113 L400 113 L400 190 L360 190" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <text x="380" y="306" font-size="13.5" fill="#96281b"  text-anchor="middle">회사가 "산재로 처리하지 말라"고 하면 산재 은폐 — 노동청·경찰에 신고 가능</text>
+</svg>

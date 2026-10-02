@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif"><rect width="760" height="330" fill="#ffffff"/>
+  <text x="380" y="34" font-size="18" fill="#222" font-weight="bold" text-anchor="middle">4대 사회보험 — 누가 내는가</text>
+  <text x="380" y="58" font-size="12" fill="#666"  text-anchor="middle">※ 요율은 매년 바뀌므로 표기하지 않음 — 각 기관 공시로 확인</text>
+  <rect x="60" y="80" width="640" height="40" fill="#c0392b"/>
+  <text x="200" y="106" font-size="14.5" fill="#fff" font-weight="bold" text-anchor="middle">국민연금</text>
+  <text x="340" y="106" font-size="14.5" fill="#fff" font-weight="bold" text-anchor="middle">건강보험</text>
+  <text x="490" y="106" font-size="14.5" fill="#fff" font-weight="bold" text-anchor="middle">고용보험</text>
+  <text x="620" y="106" font-size="14.5" fill="#fff" font-weight="bold" text-anchor="middle">산재보험</text>
+  
+    <text x="200" y="146" font-size="13.5" fill="#222" font-weight="bold" text-anchor="start">근로자 부담</text>
+    <text x="340" y="146" font-size="15" fill="#3d7a4f" font-weight="bold" text-anchor="middle">O</text><text x="490" y="146" font-size="15" fill="#3d7a4f" font-weight="bold" text-anchor="middle">O</text><text x="620" y="146" font-size="15" fill="#3d7a4f" font-weight="bold" text-anchor="middle">O</text><text x="undefined" y="146" font-size="15" fill="#c0392b" font-weight="bold" text-anchor="middle">X</text>
+    <line x1="60" y1="160" x2="700" y2="160" stroke="#e5e5e5"/>
+    <text x="200" y="190" font-size="13.5" fill="#222" font-weight="bold" text-anchor="start">사업주 부담</text>
+    <text x="340" y="190" font-size="15" fill="#3d7a4f" font-weight="bold" text-anchor="middle">O</text><text x="490" y="190" font-size="15" fill="#3d7a4f" font-weight="bold" text-anchor="middle">O</text><text x="620" y="190" font-size="15" fill="#3d7a4f" font-weight="bold" text-anchor="middle">O</text><text x="undefined" y="190" font-size="15" fill="#3d7a4f" font-weight="bold" text-anchor="middle">O</text>
+    <line x1="60" y1="204" x2="700" y2="204" stroke="#e5e5e5"/>
+    <text x="200" y="234" font-size="13.5" fill="#222" font-weight="bold" text-anchor="start">실업급여 관련</text>
+    <text x="340" y="234" font-size="15" fill="#666" font-weight="bold" text-anchor="middle">-</text><text x="490" y="234" font-size="15" fill="#666" font-weight="bold" text-anchor="middle">-</text><text x="620" y="234" font-size="15" fill="#3d7a4f" font-weight="bold" text-anchor="middle">O</text><text x="undefined" y="234" font-size="15" fill="#666" font-weight="bold" text-anchor="middle">-</text>
+    <line x1="60" y1="248" x2="700" y2="248" stroke="#e5e5e5"/>
+    <text x="200" y="278" font-size="13.5" fill="#222" font-weight="bold" text-anchor="start">산재 급여 관련</text>
+    <text x="340" y="278" font-size="15" fill="#666" font-weight="bold" text-anchor="middle">-</text><text x="490" y="278" font-size="15" fill="#666" font-weight="bold" text-anchor="middle">-</text><text x="620" y="278" font-size="15" fill="#666" font-weight="bold" text-anchor="middle">-</text><text x="undefined" y="278" font-size="15" fill="#3d7a4f" font-weight="bold" text-anchor="middle">O</text>
+    <line x1="60" y1="292" x2="700" y2="292" stroke="#e5e5e5"/>
+  <text x="380" y="322" font-size="13.5" fill="#96281b"  text-anchor="middle">산재보험은 전액 사업주 부담 — 근로자가 낼 돈이 아니다</text>
+</svg>

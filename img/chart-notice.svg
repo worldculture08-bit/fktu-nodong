@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif"><rect width="760" height="300" fill="#ffffff"/>
+  <text x="380" y="34" font-size="18" fill="#222" font-weight="bold" text-anchor="middle">내용증명 vs 진정서 — 언제 무엇을</text>
+  <rect x="60" y="70" width="300" height="180" rx="10" fill="#f8fbff" stroke="#2c5f8a" stroke-width="2"/>
+  <text x="210" y="102" font-size="16" fill="#2c5f8a" font-weight="bold" text-anchor="middle">내용증명</text>
+  <text x="210" y="138" font-size="12.5" fill="#222"  text-anchor="middle">사적 통지 — 우체국 접수</text><text x="210" y="164" font-size="12.5" fill="#222"  text-anchor="middle">받는 곳: 사용자(회사)</text><text x="210" y="190" font-size="12.5" fill="#222"  text-anchor="middle">효과: 요구 기록·시효 중단</text><text x="210" y="216" font-size="12.5" fill="#222"  text-anchor="middle">시점: 사내 요구 첫 단계</text>
+  <rect x="400" y="70" width="300" height="180" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="2"/>
+  <text x="550" y="102" font-size="16" fill="#96281b" font-weight="bold" text-anchor="middle">진정서</text>
+  <text x="550" y="138" font-size="12.5" fill="#222"  text-anchor="middle">공적 절차 — 행정기관 접수</text><text x="550" y="164" font-size="12.5" fill="#222"  text-anchor="middle">받는 곳: 관할 노동청</text><text x="550" y="190" font-size="12.5" fill="#222"  text-anchor="middle">효과: 조사·지도로 이어짐</text><text x="550" y="216" font-size="12.5" fill="#222"  text-anchor="middle">시점: 사내 요구로 안 될 때</text>
+  <text x="380" y="286" font-size="13.5" fill="#96281b"  text-anchor="middle">둘 다 사실 위주로 쓰고, 증거 목록을 붙인다</text>
+</svg>

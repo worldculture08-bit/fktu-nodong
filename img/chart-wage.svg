@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif"><rect width="760" height="330" fill="#ffffff"/>
+  <text x="380" y="34" font-size="18" fill="#222" font-weight="bold" text-anchor="middle">평균임금과 통상임금 — 무엇이 다른가</text>
+  <rect x="50" y="60" width="320" height="220" rx="10" fill="#f8fbff" stroke="#2c5f8a" stroke-width="2"/>
+  <text x="210" y="92" font-size="17" fill="#2c5f8a" font-weight="bold" text-anchor="middle">평균임금</text>
+  <text x="210" y="126" font-size="13" fill="#222"  text-anchor="middle">산정: 퇴직 등 사유 발생일 전</text><text x="210" y="150" font-size="13" fill="#222"  text-anchor="middle">3개월간 지급액 ÷ 총 일수</text><text x="210" y="126" font-size="13" fill="#222"  text-anchor="middle">쓰임: 퇴직금</text><text x="210" y="126" font-size="13" fill="#222"  text-anchor="middle">· 산재 휴업급여</text><text x="210" y="126" font-size="13" fill="#222"  text-anchor="middle">· 해고예고수당</text>
+  <rect x="390" y="60" width="320" height="220" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="2"/>
+  <text x="550" y="92" font-size="17" fill="#96281b" font-weight="bold" text-anchor="middle">통상임금</text>
+  <text x="550" y="126" font-size="13" fill="#222"  text-anchor="middle">정의: 정기·일률적으로</text><text x="550" y="126" font-size="13" fill="#222"  text-anchor="middle">· 근로에 대한 대가로 지급</text><text x="550" y="126" font-size="13" fill="#222"  text-anchor="middle">쓰임: 연장·야간·휴일수당</text><text x="550" y="126" font-size="13" fill="#222"  text-anchor="middle">· 연차수당 계산 기준</text>
+  <text x="380" y="312" font-size="13.5" fill="#666"  text-anchor="middle">두 기준이 달라 같은 월급이라도 계산 결과가 다르다</text>
+</svg>

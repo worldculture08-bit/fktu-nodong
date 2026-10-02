@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif"><rect width="760" height="300" fill="#ffffff"/>
+  <text x="380" y="34" font-size="18" fill="#222" font-weight="bold" text-anchor="middle">연차휴가 — 발생에서 수당까지</text>
+  
+    <rect x="60" y="70" width="180" height="96" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="2"/>
+    <text x="150" y="100" font-size="16" fill="#96281b" font-weight="bold" text-anchor="middle">1년 미만</text>
+    <text x="150" y="128" font-size="12.5" fill="#222"  text-anchor="middle">개월 수에 따라</text><text x="150" y="148" font-size="12.5" fill="#222"  text-anchor="middle">1개월 만근 시 1일</text>
+  
+    <rect x="290" y="70" width="180" height="96" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="2"/>
+    <text x="380" y="100" font-size="16" fill="#96281b" font-weight="bold" text-anchor="middle">1년 이상</text>
+    <text x="380" y="128" font-size="12.5" fill="#222"  text-anchor="middle">8개 이상 만근 시</text><text x="380" y="148" font-size="12.5" fill="#222"  text-anchor="middle">15일 발생</text>
+  
+    <rect x="520" y="70" width="180" height="96" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="2"/>
+    <text x="610" y="100" font-size="16" fill="#96281b" font-weight="bold" text-anchor="middle">미사용 시</text>
+    <text x="610" y="128" font-size="12.5" fill="#222"  text-anchor="middle">사용 촉진 절차 후</text><text x="610" y="148" font-size="12.5" fill="#222"  text-anchor="middle">소멸 가능</text>
+  
+  <path d="M240 118 L290 118" stroke="#c0392b" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M470 118 L520 118" stroke="#c0392b" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="230" y="200" width="520" height="70" rx="8" fill="#fff" stroke="#e5e5e5"/>
+  <text x="490" y="228" font-size="14" fill="#96281b" font-weight="bold" text-anchor="middle">촉진 절차를 지키지 않으면 연차는 소멸하지 않는다</text>
+  <text x="490" y="252" font-size="12.5" fill="#666"  text-anchor="middle">사용 시기 결정권은 원칙적으로 근로자에게 있음</text>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#c0392b" stroke-width="1.5"/></marker></defs>
+</svg>

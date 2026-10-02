@@ -1,0 +1,10 @@
+.vercel
+.env*
+*.docx
+*.hwp
+*.xlsx
+*.xls
+*.pem
+*.key
+tools/
+README.md

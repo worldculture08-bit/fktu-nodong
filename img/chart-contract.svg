@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif"><rect width="760" height="300" fill="#ffffff"/>
+  <text x="380" y="34" font-size="18" fill="#222" font-weight="bold" text-anchor="middle">근로계약서 — 반드시 확인할 6가지</text>
+  
+    <rect x="60" y="66" width="200" height="88" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="1.6"/>
+    <text x="160" y="100" font-size="15" fill="#96281b" font-weight="bold" text-anchor="middle">1. 임금</text>
+    <text x="160" y="128" font-size="12" fill="#222"  text-anchor="middle">구성·지급일·지급 방법</text>
+    <rect x="280" y="66" width="200" height="88" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="1.6"/>
+    <text x="380" y="100" font-size="15" fill="#96281b" font-weight="bold" text-anchor="middle">2. 근로시간</text>
+    <text x="380" y="128" font-size="12" fill="#222"  text-anchor="middle">시작·끝·휴게시간</text>
+    <rect x="500" y="66" width="200" height="88" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="1.6"/>
+    <text x="600" y="100" font-size="15" fill="#96281b" font-weight="bold" text-anchor="middle">3. 업무 내용</text>
+    <text x="600" y="128" font-size="12" fill="#222"  text-anchor="middle">계약서와 실제 일치?</text>
+    <rect x="60" y="174" width="200" height="88" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="1.6"/>
+    <text x="160" y="208" font-size="15" fill="#96281b" font-weight="bold" text-anchor="middle">4. 계약 기간</text>
+    <text x="160" y="236" font-size="12" fill="#222"  text-anchor="middle">기간제라면 갱신 조건</text>
+    <rect x="280" y="174" width="200" height="88" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="1.6"/>
+    <text x="380" y="208" font-size="15" fill="#96281b" font-weight="bold" text-anchor="middle">5. 퇴직금</text>
+    <text x="380" y="236" font-size="12" fill="#222"  text-anchor="middle">DB·DC·IRP 여부</text>
+    <rect x="500" y="174" width="200" height="88" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="1.6"/>
+    <text x="600" y="208" font-size="15" fill="#96281b" font-weight="bold" text-anchor="middle">6. 규칙</text>
+    <text x="600" y="236" font-size="12" fill="#222"  text-anchor="middle">취업규칙 불리한 변경 없나</text>
+  <text x="380" y="286" font-size="13.5" fill="#666"  text-anchor="middle">근로계약서를 회사가 안 주면 노동청에 신고할 수 있다</text>
+</svg>

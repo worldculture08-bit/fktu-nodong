@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="한국노총 노동연대">
+  <title>한국노총 노동연대</title>
+  <defs>
+    <linearGradient id="nd-badge" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#bb262d"/>
+      <stop offset="1" stop-color="#9c1d25"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="13" fill="url(#nd-badge)"/>
+  <g fill="#ffffff" transform="translate(-1 0)">
+    <path d="M34 9.5C23 19 18.5 27.5 18.5 38C18.5 47 21.5 53.5 26 57C30 49.5 33.5 42 36.2 34C37.4 27 36.5 15 34 9.5Z"/>
+    <path d="M43.5 16.5C47.5 24.5 48.5 33.5 47 40.5C45.5 47.5 40.5 53.5 32.5 57C35 49 37.5 41 40.5 34C42.5 28 43 21.5 43.5 16.5Z"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif"><rect width="760" height="300" fill="#ffffff"/>
+  <text x="380" y="34" font-size="18" fill="#222" font-weight="bold" text-anchor="middle">증거 노트 — 5단계로 만들기</text>
+  
+    <rect x="48" y="70" width="128" height="120" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="1.6"/>
+    <circle cx="112" cy="100" r="18" fill="#c0392b"/>
+    <text x="112" y="106" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">1</text>
+    <text x="112" y="140" font-size="13" fill="#96281b" font-weight="bold" text-anchor="middle">폴더 나누기</text>
+    <text x="112" y="162" font-size="10.5" fill="#666"  text-anchor="middle">체불 / 해고 /</text><text x="112" y="180" font-size="10.5" fill="#666"  text-anchor="middle">산재 / 괴롭힘</text>
+    <rect x="190" y="70" width="128" height="120" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="1.6"/>
+    <circle cx="254" cy="100" r="18" fill="#c0392b"/>
+    <text x="254" y="106" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">2</text>
+    <text x="254" y="140" font-size="13" fill="#96281b" font-weight="bold" text-anchor="middle">날짜 순 기록</text>
+    <text x="254" y="162" font-size="10.5" fill="#666"  text-anchor="middle">일어난 일을</text><text x="254" y="180" font-size="10.5" fill="#666"  text-anchor="middle">5W1H로 적기</text>
+    <rect x="332" y="70" width="128" height="120" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="1.6"/>
+    <circle cx="396" cy="100" r="18" fill="#c0392b"/>
+    <text x="396" y="106" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">3</text>
+    <text x="396" y="140" font-size="13" fill="#96281b" font-weight="bold" text-anchor="middle">원본 보관</text>
+    <text x="396" y="162" font-size="10.5" fill="#666"  text-anchor="middle">채팅·메일은 원본과</text><text x="396" y="180" font-size="10.5" fill="#666"  text-anchor="middle">캡처 함께</text>
+    <rect x="474" y="70" width="128" height="120" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="1.6"/>
+    <circle cx="538" cy="100" r="18" fill="#c0392b"/>
+    <text x="538" y="106" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">4</text>
+    <text x="538" y="140" font-size="13" fill="#96281b" font-weight="bold" text-anchor="middle">월별 대조</text>
+    <text x="538" y="162" font-size="10.5" fill="#666"  text-anchor="middle">통장 기록과</text><text x="538" y="180" font-size="10.5" fill="#666"  text-anchor="middle">임금명세서 대조</text>
+    <rect x="616" y="70" width="128" height="120" rx="10" fill="#fff5f5" stroke="#c0392b" stroke-width="1.6"/>
+    <circle cx="680" cy="100" r="18" fill="#c0392b"/>
+    <text x="680" y="106" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">5</text>
+    <text x="680" y="140" font-size="13" fill="#96281b" font-weight="bold" text-anchor="middle">목격자 메모</text>
+    <text x="680" y="162" font-size="10.5" fill="#666"  text-anchor="middle">이름과</text><text x="680" y="180" font-size="10.5" fill="#666"  text-anchor="middle">연락처 남기기</text>
+  <text x="380" y="244" font-size="13.5" fill="#96281b"  text-anchor="middle">녹음은 대화 당사자가 하면 적법성 문제가 적다</text>
+  <text x="380" y="270" font-size="12.5" fill="#666"  text-anchor="middle">캡처만 남기고 원본을 지우지 말 것</text>
+</svg>
