@@ -258,6 +258,11 @@ gh api repos/worldculture08-bit/fktu-nodong/git/trees/main?recursive=1   # 원�
 ```
 
 - **인증**: 이 PC 는 `aannss800124` 계정으로 로그인돼 있고(2026-10-02 Collaborator 추가), `repo` 스코프가 있어 바로 푸시됩니다. 토큰을 따로 만들지 않습니다.
+- **푸시가 멈추면 (2026-10-02 실측)**: 이 PC 의 기본 자격증명 헬퍼 `manager`(Git Credential Manager) 가 대화상자에서 멈춰 `git push` 가 10분 넘게 hang 됩니다(`git ls-remote`·`git fetch` 는 정상). 아래처럼 gh 토큰을 직접 쓰면 즉시 됩니다:
+
+```bash
+git -c credential.helper= -c credential.helper='!gh auth git-credential' push origin main
+```
 - **포함**: 사이트 파일 113개 (HTML 86 · CSS · `js/site.js` · 로고·파비콘·apple-touch-icon·icon-512·og.png · `img/` 차트 SVG · `sitemap.xml` · `feed.xml` · 검색엔진·네이버 인증 파일 · `README.md`)
 - **미포함(의도)**: `tools/` 운영 스크립트 — 공개 저장소에 노출하지 않기 위해 커밋 대상에서 뺐습니다. 필요하면 `-- tools` 로 스테이징하고 커밋하면 들어갑니다.
 - **제외(보안)**: `.env*` · `.vercel/` · `*.docx` · `tools/social.env` · `tools/social-state.json` · `tools/social-queue.json` — `.gitignore` 가 막습니다.
