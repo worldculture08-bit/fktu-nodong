@@ -184,7 +184,7 @@ VERCEL_TOKEN=<토큰> VERCEL_TEAM=team_3HoUweM4zrGrTm1lCaxrYjpI node tools/deplo
 ```
 - 프로젝트: **`fktu-nodong-v2`** (`prj_WUsBK4YXEtyS8tyjYnlBkI3lwfGE`, 팀 `worldculture0825-2848`) — 2026-10-02 부터
 - 도메인: `fktu-nodong.vercel.app` (이 프로젝트 소유)
-- ⚠️ 2026-10-02 프로젝트 이전: 구 프로젝트 `fktu-nodong` (`prj_P4tHJiJGn8AFlgW9tdhimQlxUqY0`) 는 백엔드에 레거시 설정이 고착되어 **모든 배포가 `BUILD_FAILED / Resource provisioning failed`**(빌드 컨테이너가 시작되지 않음)로 실패했습니다. 공개 API로 바꿀 수 있는 설정(`fluid: false`, 함수 타임아웃 10s, 배포 보호 해제)을 모두 되돌려도 동일했고, 같은 설정의 임시 신규 프로젝트는 정상 배포되어 **프로젝트 단위 고착**으로 확인했습니다. 도메인은 그대로 `fktu-nodong-v2` 로 옮겼으니 주소·기능은 불변입니다. 구 프로젝트는 폐기 전까지 보관 — 같은 증상이 재발하면 Vercel 지원팀에 프로젝트 설정 초기화를 요청하세요 (영문 티켓: “Stuck legacy backend settings block all builds — Resource provisioning failed”).
+- ⚠️ 2026-10-02 프로젝트 이전: 구 프로젝트 `fktu-nodong` (`prj_P4tHJiJGn8AFlgW9tdhimQlxUqY0`) 는 백엔드에 레거시 설정이 고착되어 **모든 배포가 `BUILD_FAILED / Resource provisioning failed`**(빌드 컨테이너가 시작되지 않음)로 실패했습니다. 공개 API로 바꿀 수 있는 설정(`fluid: false`, 함수 타임아웃 10s, 배포 보호 해제)을 모두 되돌려도 동일했고, 같은 설정의 임시 신규 프로젝트는 정상 배포되어 **프로젝트 단위 고착**으로 확인했습니다. 도메인은 그대로 `fktu-nodong-v2` 로 옮겼으니 주소·기능은 불변입니다. 구 프로젝트는 **2026-10-02 폐기 완료**했습니다(원인 확인용 진단 정보는 `tools/vercel-support-ticket.md` 에 보관 — 지원팀에는 복구 요청이 아닌 원인·재발 방지 문의용). 같은 증상이 새 프로젝트에서 재발하면 Vercel 지원팀에 위 문구로 문의하세요.
 - 토큰은 vercel.com → Settings → Tokens 에서 발급. 만료되면 새로 만들어 쓰세요.
 - 토큰 Scope 는 **`worldculture0825-nodong` (팀)** 이 편합니다. Full Account 로 만들었으면 `VERCEL_TEAM=team_3HoUweM4zrGrTm1lCaxrYjpI` 를 같이 넘기세요 (2026-09-17 부터 스크립트가 `teamId` 를 붙입니다).
 - 대시보드 토큰 생성 폼에서 **Scope 를 팀으로 고르면 폼 검사가 계속 실패**했습니다(`Select a valid scope.`). 계정 스코프로 만들고 `VERCEL_TEAM` 을 넘기는 쪽이 실제로 됩니다.
