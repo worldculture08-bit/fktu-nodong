@@ -180,9 +180,11 @@ node tools/make-ico.mjs      # favicon.ico (위 PNG 를 그대로 감쌈)
 VERCEL_TOKEN=<토큰> node tools/deploy.mjs
 # 계정(Full Account) 스코프 토큰 — teamId 를 붙여야 팀 프로젝트를 찾습니다
 VERCEL_TOKEN=<토큰> VERCEL_TEAM=team_3HoUweM4zrGrTm1lCaxrYjpI node tools/deploy.mjs
+# (프로젝트 이름은 기본 fktu-nodong-v2. 다르게 올리려면 VERCEL_PROJECT=<이름> 추가)
 ```
-- 프로젝트: `fktu-nodong` (`prj_P4tHJiJGn8AFlgW9tdhimQlxUqY0`, 팀 `worldculture0825-2848`)
+- 프로젝트: **`fktu-nodong-v2`** (`prj_WUsBK4YXEtyS8tyjYnlBkI3lwfGE`, 팀 `worldculture0825-2848`) — 2026-10-02 부터
 - 도메인: `fktu-nodong.vercel.app` (이 프로젝트 소유)
+- ⚠️ 2026-10-02 프로젝트 이전: 구 프로젝트 `fktu-nodong` (`prj_P4tHJiJGn8AFlgW9tdhimQlxUqY0`) 는 백엔드에 레거시 설정이 고착되어 **모든 배포가 `BUILD_FAILED / Resource provisioning failed`**(빌드 컨테이너가 시작되지 않음)로 실패했습니다. 공개 API로 바꿀 수 있는 설정(`fluid: false`, 함수 타임아웃 10s, 배포 보호 해제)을 모두 되돌려도 동일했고, 같은 설정의 임시 신규 프로젝트는 정상 배포되어 **프로젝트 단위 고착**으로 확인했습니다. 도메인은 그대로 `fktu-nodong-v2` 로 옮겼으니 주소·기능은 불변입니다. 구 프로젝트는 폐기 전까지 보관 — 같은 증상이 재발하면 Vercel 지원팀에 프로젝트 설정 초기화를 요청하세요 (영문 티켓: “Stuck legacy backend settings block all builds — Resource provisioning failed”).
 - 토큰은 vercel.com → Settings → Tokens 에서 발급. 만료되면 새로 만들어 쓰세요.
 - 토큰 Scope 는 **`worldculture0825-nodong` (팀)** 이 편합니다. Full Account 로 만들었으면 `VERCEL_TEAM=team_3HoUweM4zrGrTm1lCaxrYjpI` 를 같이 넘기세요 (2026-09-17 부터 스크립트가 `teamId` 를 붙입니다).
 - 대시보드 토큰 생성 폼에서 **Scope 를 팀으로 고르면 폼 검사가 계속 실패**했습니다(`Select a valid scope.`). 계정 스코프로 만들고 `VERCEL_TEAM` 을 넘기는 쪽이 실제로 됩니다.
@@ -230,6 +232,7 @@ node tools/check-links.mjs     # 내부 링크 전수 검사 (깨진 링크 0 �
 | **배포·라이브 검증 (2026-09-18)** | 배포 `dpl_3FXJLsSKsUCFrdRTNZ7TnqVigpXN` READY. 라이브: `/articles/index.html` **200 · 카드 54개** · 신규 글 3편 **200** · `/sitemap.xml` **200 · 69 URL** · `/feed.xml` **200 · 60항목** · 홈 카드 최신 3편 = 신규 글 |
 | 계정 자동 생성 시도 (2026-09-18) | 블루스카이 `com.atproto.server.createAccount` → `Verification is now required on this server` (전화번호 인증 필수) 로 **자동 생성 불가 확정**. `tools/create-bluesky.mjs` 는 남겨둠(가입만 되면 앱 비밀번호 자동 발급). 텔레그램·디스코드도 계정 미보유 확인(브라우저 로그아웃 상태 실측) |
 | **GitHub 저장소 최신화 (2026-10-02)** | `worldculture08-bit/fktu-nodong` 이 2026-09-16 이후 구버전(6파일)에 머물러 있어 현재 배포본을 `main` 에 직접 푸시 — 커밋 `f9949bf`, **113파일**(로고·파비콘·OG·차트 SVG·HTML 86·지식 64편·소식·게시판·`js/site.js`·`sitemap.xml`·`feed.xml`·검증 파일·README). `tools/` 는 의도적으로 미포함(운영 스크립트), `.gitignore` 로 `.env*`·`.vercel`·`*.docx`·소셜 채널 자격증명 제외. 원격 재귀 트리 118엔트리/113블롭(`truncated=false`), `logo.svg`·`index.html`·`articles/index.html`·`about.html`·`contact.html`·`welcome.html` 6개 blob SHA 로컬-원격 일치 확인. **열린 PR #1 은 구버전 포크(`opo642506-cmyk`)에서 온 10편 스냅샷이라 병합 충돌 — 사유 ком댓 후 닫음** |
+| **배포 장애 복구 — Vercel 프로젝트 이전 + 문구 반영 (2026-10-02)** | 홈·소개·문의 문구 다듬기 반영 배포 — 구 프로젝트는 전 배포 `BUILD_FAILED / Resource provisioning failed`(빌드 컨테이너 미시작)라 CLI·API 모두 실패 · 공개 API 설정 정리(`fluid:false` · 함수 타임아웃 10s · 배포 보호 해제) 후에도 동일 · 임시 신규 프로젝트는 READY → **프로젝트 단위 고착** 확인 · **`fktu-nodong-v2` (`prj_WUsBK4YXEtyS8tyjYnlBkI3lwfGE`) 로 이전**하고 도메인 `fktu-nodong.vercel.app` 이전(verified) · 배포 `dpl_FHMMjrZTzVeBHhgqKq6uMy1oHwNA` **READY** · 라이브 9개 페이지 **200** · 새 문구·`64편` 반영 · 박강원 **8곳**(공개 7 + README 1, 승인 유지) · `check-links` 86 HTML · 2,197 링크 · 깨짐 **0** · `_사이트사본-2026-09-16/` 재생성 **110파일 · diff 차이 0** |
 | **계정 정지 방지 — 무인 브라우저 자동 게시 중단 (2026-09-19)** | 인스타·스레드·X 봇 탐지 정지 계기에 브라우저 자동 조작을 전부 중단 · `promo-browser.mjs`·`promo-blog.mjs` 에 **`process.stdin.isTTY` 가드**(스케줄러 회차 `exit 2`, 실측 확인) · `social-post.mjs` `AUTO_CHANNELS` 에서 **`x` 제외**(토큰을 채워도 예약 회차에 안 붙음) · `promo-daily.cmd` 개편(초안 1건 + 공식 API 1건) · `홍보실행.cmd` 를 **y/N 확인 뒤에만** 브라우저 게시 · `tools/social-draft.mjs` 신규(X 140자·스레드 500자·인스타 2,200자 자동 자르기, 브라우저·계정 미접촉) · 검사 `social-post --check` 10항목 · `test-social-post` 24항목 · `test-linkify` 8종 전부 통과 |
 
 ## 8. 아직 없는 것
