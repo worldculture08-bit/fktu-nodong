@@ -229,6 +229,7 @@ node tools/check-links.mjs     # 내부 링크 전수 검사 (깨진 링크 0 �
 | **로그 점검 도구 (2026-09-18)** | `tools/promo-logs.mjs` 신규 — `social-state.json`(채널별 발행 건수·최근 시각) + `promo-log.txt`(회차별 성공/실패·실패 줄) + 남은 대기열을 한 화면에. `--self-test` **7항목 통과** · 실측 출력: 페이스북 페이지 5건 · 블로그 3건 · 회차 3회 성공 3 실패 0 |
 | **배포·라이브 검증 (2026-09-18)** | 배포 `dpl_3FXJLsSKsUCFrdRTNZ7TnqVigpXN` READY. 라이브: `/articles/index.html` **200 · 카드 54개** · 신규 글 3편 **200** · `/sitemap.xml` **200 · 69 URL** · `/feed.xml` **200 · 60항목** · 홈 카드 최신 3편 = 신규 글 |
 | 계정 자동 생성 시도 (2026-09-18) | 블루스카이 `com.atproto.server.createAccount` → `Verification is now required on this server` (전화번호 인증 필수) 로 **자동 생성 불가 확정**. `tools/create-bluesky.mjs` 는 남겨둠(가입만 되면 앱 비밀번호 자동 발급). 텔레그램·디스코드도 계정 미보유 확인(브라우저 로그아웃 상태 실측) |
+| **GitHub 저장소 최신화 (2026-10-02)** | `worldculture08-bit/fktu-nodong` 이 2026-09-16 이후 구버전(6파일)에 머물러 있어 현재 배포본을 `main` 에 직접 푸시 — 커밋 `f9949bf`, **113파일**(로고·파비콘·OG·차트 SVG·HTML 86·지식 64편·소식·게시판·`js/site.js`·`sitemap.xml`·`feed.xml`·검증 파일·README). `tools/` 는 의도적으로 미포함(운영 스크립트), `.gitignore` 로 `.env*`·`.vercel`·`*.docx`·소셜 채널 자격증명 제외. 원격 재귀 트리 118엔트리/113블롭(`truncated=false`), `logo.svg`·`index.html`·`articles/index.html`·`about.html`·`contact.html`·`welcome.html` 6개 blob SHA 로컬-원격 일치 확인. **열린 PR #1 은 구버전 포크(`opo642506-cmyk`)에서 온 10편 스냅샷이라 병합 충돌 — 사유 ком댓 후 닫음** |
 | **계정 정지 방지 — 무인 브라우저 자동 게시 중단 (2026-09-19)** | 인스타·스레드·X 봇 탐지 정지 계기에 브라우저 자동 조작을 전부 중단 · `promo-browser.mjs`·`promo-blog.mjs` 에 **`process.stdin.isTTY` 가드**(스케줄러 회차 `exit 2`, 실측 확인) · `social-post.mjs` `AUTO_CHANNELS` 에서 **`x` 제외**(토큰을 채워도 예약 회차에 안 붙음) · `promo-daily.cmd` 개편(초안 1건 + 공식 API 1건) · `홍보실행.cmd` 를 **y/N 확인 뒤에만** 브라우저 게시 · `tools/social-draft.mjs` 신규(X 140자·스레드 500자·인스타 2,200자 자동 자르기, 브라우저·계정 미접촉) · 검사 `social-post --check` 10항목 · `test-social-post` 24항목 · `test-linkify` 8종 전부 통과 |
 
 ## 8. 아직 없는 것
@@ -244,7 +245,23 @@ node tools/check-links.mjs     # 내부 링크 전수 검사 (깨진 링크 0 �
 - **네이버 카페·블로그** — 글쓰기 API 가 없어 자동 게시 불가. 지금 브라우저에 네이버 로그인도 없습니다. 네이버 카페 자동 게시를 브라우저 자동 조작으로 붙이는 것은 위 원칙에 **어긋납니다** — 자동화가 필요하면 사람 직접 게시가 유일한 경로입니다.
 - **예약 발행** — 사람이 정한 시각에만 나갑니다(`social-queue.json` 의 `at`). 반응 보고 자동 조정하는 기능은 없습니다.
 
-## 9. 홍보 자동화 (무료)
+## 9. GitHub 백업 저장소
+
+`worldculture08-bit/fktu-nodong` — 현재 배포본과 동일한 소스를 `main` 에 둡니다.
+
+```bash
+git -C fktu-nodong push origin main          # 로컬 커밋 반영
+gh api repos/worldculture08-bit/fktu-nodong/git/trees/main?recursive=1   # 원격 파일 수 확인
+```
+
+- **인증**: 이 PC 는 `aannss800124` 계정으로 로그인돼 있고(2026-10-02 Collaborator 추가), `repo` 스코프가 있어 바로 푸시됩니다. 토큰을 따로 만들지 않습니다.
+- **포함**: 사이트 파일 113개 (HTML 86 · CSS · `js/site.js` · 로고·파비콘·apple-touch-icon·icon-512·og.png · `img/` 차트 SVG · `sitemap.xml` · `feed.xml` · 검색엔진·네이버 인증 파일 · `README.md`)
+- **미포함(의도)**: `tools/` 운영 스크립트 — 공개 저장소에 노출하지 않기 위해 커밋 대상에서 뺐습니다. 필요하면 `-- tools` 로 스테이징하고 커밋하면 들어갑니다.
+- **제외(보안)**: `.env*` · `.vercel/` · `*.docx` · `tools/social.env` · `tools/social-state.json` · `tools/social-queue.json` — `.gitignore` 가 막습니다.
+
+---
+
+## 10. 홍보 자동화 (무료)
 
 전체 절차는 `tools/social-setup.md`. 유료 플랜 없이 돌아가며, 채널이 하나도 없어도 연습·문구 추출은 됩니다.
 
@@ -359,7 +376,7 @@ powershell -ExecutionPolicy Bypass -File tools/install-task.ps1 -Remove         
 - 중복 방지: `tools/social-state.json`. 같은 글을 두 번 올리지 않음. 기본은 회차당 1건(스팸 방지)
 - 매일 자동 실행: `powershell -ExecutionPolicy Bypass -File tools/install-task.ps1` (작업 스케줄러 등록·삭제·시각 변경 지원)
 
-## 10. 안내 문서를 HWP 로 만들기
+## 11. 안내 문서를 HWP 로 만들기
 
 운영 안내 같은 문서를 한글(HWP) 파일로 내보낼 때 쓴다. 원본은 HTML 로 쓰고 변환만 한다.
 
